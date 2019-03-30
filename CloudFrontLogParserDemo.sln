@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{849B4DAB-9E6
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudFrontLogParserDemo", "src\CloudFrontLogParserDemo\CloudFrontLogParserDemo.csproj", "{BCAF8A77-5F84-4E91-A3C0-941EBD2610B0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "benchmarks", "benchmarks", "{9071DAAD-F900-4643-AC35-EB0E63B55318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParserBenchmarks", "benchmarks\ParserBenchmarks\ParserBenchmarks.csproj", "{2968A947-1116-43AC-AA71-247F220B8350}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{BCAF8A77-5F84-4E91-A3C0-941EBD2610B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCAF8A77-5F84-4E91-A3C0-941EBD2610B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCAF8A77-5F84-4E91-A3C0-941EBD2610B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2968A947-1116-43AC-AA71-247F220B8350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2968A947-1116-43AC-AA71-247F220B8350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2968A947-1116-43AC-AA71-247F220B8350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2968A947-1116-43AC-AA71-247F220B8350}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BCAF8A77-5F84-4E91-A3C0-941EBD2610B0} = {849B4DAB-9E64-4322-BFC6-398EED74D035}
+		{2968A947-1116-43AC-AA71-247F220B8350} = {9071DAAD-F900-4643-AC35-EB0E63B55318}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {64BFA40E-F70B-4AB4-99CB-4CC66A0E5BBA}
