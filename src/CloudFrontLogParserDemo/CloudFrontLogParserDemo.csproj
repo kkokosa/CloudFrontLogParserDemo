@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="TinyCsvParser" Version="2.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="sample-cloudfront-access-logs.gz">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
