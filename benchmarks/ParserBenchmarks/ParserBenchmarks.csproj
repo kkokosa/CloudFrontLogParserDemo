@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\CloudFrontLogParserDemo\CloudFrontLogParserDemo.csproj" />
+    <ProjectReference Include="..\..\src\SpanDemo\SpanDemo.csproj" />
   </ItemGroup>
 
 </Project>
